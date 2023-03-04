@@ -10,7 +10,7 @@ const SearchResult = (props) => {
 
   // Event handlers for the "Add to cart" and "More information" buttons.
   const addToCartClick = () => {
-    addToShoppingCart();
+    addToShoppingCart(); // <= här behövs stuff obs!!!! ({ ...product, quantity: 1 })
   };
   const showModalClick = () => {
     setShowModal(true);

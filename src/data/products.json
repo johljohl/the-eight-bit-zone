@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Super Mario Bros / Duck Hunt",
+    "description": "NES Nintendo 8 Bit",
+    "price": 295,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_supermariobrosduckhunt_2_thumb.jpg",
+    "about": "Super Mario Bros / Duck Hunt är en populär kombinationskassett med två spel till NES-konsolen på 1980-talet."
+  },
+  {
+    "id": 2,
+    "name": "Zelda II - The Aventure of Link",
+    "description": "NES Nintendo 8 Bit",
+    "price": 599,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_legendofzeldaadevntureoflink_thumb.jpg",
+    "about": "Zelda 2 är en uppföljare till det populära spelet The Legend of Zelda och släpptes till NES-konsolen på 1980-talet."
+  },
+  {
+    "id": 3,
+    "name": "Kid Icarus",
+    "description": "NES Nintendo 8 Bit",
+    "price": 395,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_kidicarus_thumb.jpg",
+    "about": "Kid Icarus är ett action-plattformsspel som släpptes till NES-konsolen på 1980-talet. I spelet styr spelaren huvudkaraktären Pit genom en serie av nivåer och strider mot fiender, med målet att rädda den grekiska gudinnan Palutena från den onda Medusa."
+  },
+  {
+    "id": 4,
+    "name": "Hogan's Alley",
+    "description": "NES Nintendo 8 Bit",
+    "price": 395,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_hogansalley_thumb.jpg",
+    "about": "Hogan's Alley är ett skjutspel som släpptes till NES-konsolen på 1980-talet. Spelet använde sig av NES Zapper, en ljuspistol, som spelare använde för att skjuta på figurer som dök upp på skärmen."
+  },
+  {
+    "id": 5,
+    "name": "Mario Bros",
+    "description": "NES Nintendo 8 Bit",
+    "price": 395,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_mariobros_thumb.jpg",
+    "about": "Mario Bros är ett arkadspel som släpptes 1983 av Nintendo. I spelet styr spelaren Mario eller Luigi och målet är att rensa nivån från fiender genom att hoppa under plattformar och slå på dem för att vända dem upp och ner, och sedan kicka iväg dem."
+  },
+  {
+    "id": 6,
+    "name": "Ice Climber",
+    "description": "NES Nintendo 8 Bit",
+    "price": 295,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_iceclimber_eu_thumb.jpg",
+    "about": "Ice Climber är ett plattformsspel som släpptes till NES-konsolen på 1980-talet. Spelet följde äventyren av två eskimåer, Popo och Nana, som skulle klättra upp på en bergstopp genom att hoppa och klättra på block och isformationer samtidigt som de undvek fiender och hinder."
+  },
+  {
+    "id": 7,
+    "name": "Wild Gunman",
+    "description": "NES Nintendo 8 Bit",
+    "price": 699,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes.wildgunman_FR.16630936311974781047_thumb.jpg",
+    "about": "Wild Gunman är ett skjutspel som släpptes till NES-konsolen på 1980-talet. I spelet använde spelare NES Zapper, en ljuspistol, för att skjuta på figurer som dök upp på skärmen, såsom banditer och cowboys."
+  },
+  {
+    "id": 8,
+    "name": "Kung Fu",
+    "description": "NES Nintendo 8 Bit",
+    "price": 295,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_kungfu_thumb.jpg",
+    "about": "Kung Fu är ett plattformsspel som släpptes till NES-konsolen på 1980-talet. I spelet styrde spelaren karaktären Thomas som kämpade mot våldsamma fiender för att rädda sin flickvän Sylvia. Spelet var känt för sin enkla men intensiva gameplay, som krävde snabba reflexer och strategiskt agerande."
+  },
+  {
+    "id": 9,
+    "name": "Donkey Kong",
+    "description": "NES Nintendo 8 Bit",
+    "price": 1495,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_donkeykong_thumb.jpg",
+    "about": "Donkey Kong är ett arkadspel som släpptes 1981 av Nintendo. I spelet spelar spelaren som den karaktären Jumpman (senare känd som Mario) och målet är att rädda hans flickvän Pauline från gorillan Donkey Kong genom att klättra upp för byggnader och undvika hinder och fiender på vägen."
+  },
+  {
+    "id": 10,
+    "name": "Metroid",
+    "description": "NES Nintendo 8 Bit",
+    "price": 595,
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_metroid_thumb.jpg",
+    "about": "Metroid är ett action-plattformsspel som släpptes till NES-konsolen på 1980-talet. I spelet spelar spelaren som rymdbestridaren Samus Aran, vars uppdrag är att infiltrera en fientlig planet och bekämpa dess invånare för att rädda universum från en ond kraft"
+  },
+  {
+    "id": 11,
+    "name": "Nintendo 8 Bit Basenhet",
+    "description": "Konsol, Tillbehör",
+    "price": 1695,
+    "image": "https://nes.kreese.com/grafik/tillbehor/box.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Nintendo Zapper",
+    "description": "Tillbehör",
+    "price": 695,
+    "image": "https://nes.kreese.com/grafik/tillbehor/zappergrey.jpg"
+  }
+]

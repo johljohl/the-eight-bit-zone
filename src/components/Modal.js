@@ -13,7 +13,7 @@ const Modal = (props) => {
         <img className="modal-image" src={image} alt={name} />
         <h2>{name}</h2>
         <p>{description}</p>
-        <p>Price: {price} kr</p>
+        <p>Pris: {price} kr</p>
         <p>{about}</p>
         <button className="close-button" onClick={closeModal}>
           Close

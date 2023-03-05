@@ -4,13 +4,13 @@ import Modal from "./Modal";
 // A functional component that displays search results for a product.
 const SearchResult = (props) => {
   // Destructuring is used to extract the product object and addToShoppingCart function from props.
-  const { product, addToShoppingCart } = props;
+  const { product, addToCart } = props;
   // State is used to track whether or not the modal should be displayed.
   const [showModal, setShowModal] = useState(false);
 
   // Event handlers for the "Add to cart" and "More information" buttons.
   const addToCartClick = () => {
-    addToShoppingCart(); // <= här behövs stuff obs!!!! ({ ...product, quantity: 1 })
+    addToCart(); // <= här behövs stuff obs!!!! ({ ...product, quantity: 1 })
   };
   const showModalClick = () => {
     setShowModal(true);

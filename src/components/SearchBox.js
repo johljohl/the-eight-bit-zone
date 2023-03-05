@@ -26,7 +26,7 @@ const SearchBox = (props) => {
         value={searchQuery}
         onChange={handleChange}
       />
-      <button onClick={handleSearchClick}>Search</button>
+      <button onClick={handleSearchClick}>Sök</button>
     </div>
   );
 };

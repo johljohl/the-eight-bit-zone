@@ -16,7 +16,7 @@ const Modal = (props) => {
         <p>Pris: {price} kr</p>
         <p>{about}</p>
         <button className="close-button" onClick={closeModal}>
-          Close
+          Stäng
         </button>
       </div>
     </div>

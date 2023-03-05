@@ -13,7 +13,7 @@ const SearchBox = (props) => {
 
   // Event handler for the search button's "click" event.
   const handleSearchClick = () => {
-    // TODO: Implement search functionality using the searchQuery state.
+    props.handleSearch(searchQuery);
   };
 
   // Renders an input field and a search button.

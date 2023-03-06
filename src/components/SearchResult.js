@@ -19,18 +19,32 @@ const SearchResult = (props) => {
     setOpenModal(false);
   };
 
-  // Renders a card that displays information about the product.
+  // Renders a table that displays information about the product.
   return (
-    <div className="card">
-      <h3>{product.name}</h3>
-      <img src={product.image} alt={product.name} />
-      <p>{product.description}</p>
-      <p>Price: {product.price} kr</p>
-      <button onClick={addToBasketClick}>Lägg till</button>
-      <button onClick={openModalClick}>Mer information</button>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <img
+              className="product-img"
+              src={product.image}
+              alt={product.name}
+            />
+          </td>
+          <td>{product.name}</td>
+          <td>{product.description}</td>
+          <td>{product.price} kr</td>
+          <td>
+            <button onClick={addToBasketClick}>Lägg till</button>
+          </td>
+          <td>
+            <button onClick={openModalClick}>Mer information</button>
+          </td>
+        </tr>
+      </tbody>
       {/* Renders a Modal component if openModal is true. */}
       {openModal && <Modal product={product} closeModal={closeModalClick} />}
-    </div>
+    </table>
   );
 };
 

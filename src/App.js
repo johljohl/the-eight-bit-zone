@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchBox from "./components/SearchBox";
 import SearchResult from "./components/SearchResult";
-import ShoppingBasket from "./components/ShoppingCart";
+import ShoppingBasket from "./components/ShoppingBasket";
 import data from "./data/products.json";
 import "./App.css";
 
@@ -75,24 +75,28 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>The 8-Bit Zone</h1>
-      <SearchBox handleSearch={handleSearch} />
-      <div>
-        <div>
-          {showSearchResults &&
-            filteredProducts.map((product) => (
-              <SearchResult
-                key={product.id}
-                product={product}
-                addToBasket={addToBasketClick}
-              />
-            ))}
+    <div className="app-container">
+      <div className="header-container">
+        <h1 className="header">The 8-Bit Zone</h1>
+        <SearchBox className="search-container" handleSearch={handleSearch} />
+      </div>
+      <div className="product-list">
+        {showSearchResults &&
+          filteredProducts.map((product) => (
+            <SearchResult
+              key={product.id}
+              product={product}
+              addToBasket={addToBasketClick}
+            />
+          ))}
+      </div>
+      <div className="cart-container">
+        <div className="cart">
+          <ShoppingBasket
+            basketItems={basketItems}
+            removeFromBasket={removeFromBasketClick}
+          />
         </div>
-        <ShoppingBasket
-          basketItems={basketItems}
-          removeFromBasket={removeFromBasketClick}
-        />
       </div>
     </div>
   );

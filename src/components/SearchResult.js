@@ -3,20 +3,20 @@ import Modal from "./Modal";
 
 // A functional component that displays search results for a product.
 const SearchResult = (props) => {
-  // Destructuring is used to extract the product object and addToShoppingCart function from props.
-  const { product, addToCart } = props;
+  // Destructuring is used to extract the product object and addToShoppingBasket function from props.
+  const { product, addToBasket } = props;
   // State is used to track whether or not the modal should be displayed.
-  const [showModal, setShowModal] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
-  // Event handlers for the "Add to cart" and "More information" buttons.
-  const addToCartClick = () => {
-    addToCart({ ...product, quantity: 1 });
+  // Event handlers for the "Add to basket" and "More information" buttons.
+  const addToBasketClick = () => {
+    addToBasket({ ...product, quantity: 1 });
   };
-  const showModalClick = () => {
-    setShowModal(true);
+  const openModalClick = () => {
+    setOpenModal(true);
   };
   const closeModalClick = () => {
-    setShowModal(false);
+    setOpenModal(false);
   };
 
   // Renders a card that displays information about the product.
@@ -26,10 +26,10 @@ const SearchResult = (props) => {
       <img src={product.image} alt={product.name} />
       <p>{product.description}</p>
       <p>Price: {product.price} kr</p>
-      <button onClick={addToCartClick}>Add to cart</button>
-      <button onClick={showModalClick}>More information</button>
-      {/* Renders a Modal component if showModal is true. */}
-      {showModal && <Modal product={product} closeModal={closeModalClick} />}
+      <button onClick={addToBasketClick}>Lägg till</button>
+      <button onClick={openModalClick}>Mer information</button>
+      {/* Renders a Modal component if openModal is true. */}
+      {openModal && <Modal product={product} closeModal={closeModalClick} />}
     </div>
   );
 };

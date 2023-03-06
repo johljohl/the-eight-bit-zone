@@ -1,32 +1,32 @@
 import React from "react";
 
-const ShoppingCart = (props) => {
-  // Destructure props to get removeFromCart and cartItems
-  const { removeFromCart, cartItems } = props;
+const ShoppingBasket = (props) => {
+  // Destructure props to get removeFromBasket and basketItems
+  const { removeFromBasket, basketItems } = props;
 
-  // Event handler for removing a product from the shopping cart
-  const removeFromCartClick = (itemId) => {
-    removeFromCart(itemId);
+  // Event handler for removing a product from the shopping basket
+  const removeFromBasketClick = (itemId) => {
+    removeFromBasket(itemId);
   };
 
-  // Function to calculate the total cost of the shopping cart
+  // Function to calculate the total cost of the shopping basket
   const total = () => {
     let total = 0;
-    cartItems.forEach((item) => {
+    basketItems.forEach((item) => {
       total += item.price * item.quantity;
     });
     return total;
   };
 
-  // Render JSX code for the shopping cart
+  // Render JSX code for the shopping basket
   return (
     <div>
       <h2>DIN KUNDVAGN</h2>
-      {/* Show the text "Your cart is empty" if the cart is empty */}
-      {cartItems.length === 0 ? (
+      {/* Show the text "Your basket is empty" if the basket is empty */}
+      {basketItems.length === 0 ? (
         <p>Din kundvagn är tom</p>
       ) : (
-        // Show a table with the shopping cart if there are items in the cart
+        // Show a table with the shopping basket if there are items in the basket
         <>
           <table>
             <thead>
@@ -39,23 +39,23 @@ const ShoppingCart = (props) => {
               </tr>
             </thead>
             <tbody>
-              {/* Loop through each product in the shopping cart and show a table row for each product */}
-              {cartItems.map((item) => (
+              {/* Loop through each product in the shopping basket and show a table row for each product */}
+              {basketItems.map((item) => (
                 <tr key={item.id}>
                   <td>{item.name}</td>
                   <td>{item.price} kr</td>
                   <td>{item.quantity}</td>
                   <td>{item.price * item.quantity} kr</td>
                   <td>
-                    {/* Show a button to remove the product from the shopping cart */}
-                    <button onClick={() => removeFromCartClick(item.id)}>
+                    {/* Show a button to remove the product from the shopping basket */}
+                    <button onClick={() => removeFromBasketClick(item.id)}>
                       Ta bort
                     </button>
                   </td>
                 </tr>
               ))}
             </tbody>
-            {/* Show the total cost of the shopping cart in the table footer */}
+            {/* Show the total cost of the shopping basket in the table footer */}
             <tfoot>
               <tr>
                 <td colSpan="3">Totalt:</td>
@@ -69,4 +69,4 @@ const ShoppingCart = (props) => {
     </div>
   );
 };
-export default ShoppingCart;
+export default ShoppingBasket;

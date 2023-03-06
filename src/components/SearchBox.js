@@ -22,7 +22,7 @@ const SearchBox = (props) => {
       <input
         className="list"
         type="text"
-        placeholder="Search by title, description, accessory or price..."
+        placeholder="Sök på titel, beskrivning, tillbehör eller pris..."
         value={searchQuery}
         onChange={handleChange}
       />

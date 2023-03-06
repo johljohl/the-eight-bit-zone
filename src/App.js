@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import SearchBox from "./components/SearchBox";
 import SearchResult from "./components/SearchResult";
-import ShoppingCart from "./components/ShoppingCart";
+import ShoppingBasket from "./components/ShoppingCart";
 import data from "./data/products.json";
 import "./App.css";
 
 const App = () => {
-  // State for the items in the cart
-  const [cartItems, setCartItems] = useState([]);
+  // State for the items in the basket
+  const [basketItems, setBasketItems] = useState([]);
 
   // State for showing search results
   const [showSearchResults, setShowSearchResults] = useState(false);
@@ -15,36 +15,36 @@ const App = () => {
   // State for filtered products based on search query
   const [filteredProducts, setFilteredProducts] = useState(data);
 
-  // Add a product to cart
-  const addToCartClick = (product) => {
-    // Check if the product already exists in cart
-    const matchingProduct = cartItems.find((item) => item.id === product.id);
+  // Add a product to basket
+  const addToBasketClick = (product) => {
+    // Check if the product already exists in basket
+    const matchingProduct = basketItems.find((item) => item.id === product.id);
     if (matchingProduct) {
-      // If the product exists in cart, update its quantity
-      setCartItems(
-        cartItems.map((item) =>
+      // If the product exists in basket, update its quantity
+      setBasketItems(
+        basketItems.map((item) =>
           item.id === product.id
             ? { ...item, quantity: item.quantity + product.quantity }
             : item
         )
       );
     } else {
-      // If the product doesn't exist in cart, add it to cart
-      setCartItems([...cartItems, { ...product }]);
+      // If the product doesn't exist in basket, add it to basket
+      setBasketItems([...basketItems, { ...product }]);
     }
   };
 
-  // Remove a product from cart
-  const removeFromCartClick = (productId) => {
-    // Check if the product exists in cart
-    const matchingProduct = cartItems.find((item) => item.id === productId);
+  // Remove a product from basket
+  const removeFromBasketClick = (productId) => {
+    // Check if the product exists in basket
+    const matchingProduct = basketItems.find((item) => item.id === productId);
     if (matchingProduct.quantity === 1) {
-      // If the product quantity is 1, remove it from cart
-      setCartItems(cartItems.filter((item) => item.id !== productId));
+      // If the product quantity is 1, remove it from basket
+      setBasketItems(basketItems.filter((item) => item.id !== productId));
     } else {
       // If the product quantity is greater than 1, decrement its quantity
-      setCartItems(
-        cartItems.map((item) =>
+      setBasketItems(
+        basketItems.map((item) =>
           item.id === productId
             ? { ...item, quantity: item.quantity - 1 }
             : item
@@ -85,13 +85,13 @@ const App = () => {
               <SearchResult
                 key={product.id}
                 product={product}
-                addToCart={addToCartClick}
+                addToBasket={addToBasketClick}
               />
             ))}
         </div>
-        <ShoppingCart
-          cartItems={cartItems}
-          removeFromCart={removeFromCartClick}
+        <ShoppingBasket
+          basketItems={basketItems}
+          removeFromBasket={removeFromBasketClick}
         />
       </div>
     </div>

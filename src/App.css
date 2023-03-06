@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/new-super-mario-font-u");
 /* Modal content*/
 .modal {
   position: fixed;
@@ -32,7 +33,7 @@
 }
 
 .list {
-  width: 600px;
+  width: 450px;
   height: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -164,27 +165,33 @@ table {
 
 td {
   text-align: left;
-  background-color: lightgray;
+  padding-top: 16px;
+  padding-left: 16px;
   border: 1 solid black;
 }
 .app-container {
   display: grid;
   grid-template-columns: 1fr 400px;
   grid-template-rows: auto 1fr auto;
-  gap: 20px;
+
   justify-content: center;
   align-items: flex-start;
-  margin-top: 20px;
 }
 .header-container {
-  background-color: gray;
+  background-image: url("../src/img/marioback.png");
+
+  padding: 50px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: lightgrey;
   grid-row: 1;
   grid-column: 1 / -1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .search-container {
@@ -212,10 +219,18 @@ td {
 }
 
 .cart-container {
-  background-color: lightgray;
+  background-color: #eb0014;
   padding-left: 8px;
-  height: 1631px;
+  height: 1836px;
   grid-row: 2;
   grid-column: 2;
   overflow-y: auto;
+}
+.header {
+  text-align: left;
+}
+
+h1 {
+  font-family: "New Super Mario Font U", sans-serif;
+  font-size: 75px;
 }

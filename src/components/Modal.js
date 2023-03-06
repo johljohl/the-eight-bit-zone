@@ -1,5 +1,3 @@
-import React from "react";
-
 // A functional component that renders a modal with product information.
 const Modal = (props) => {
   // Destructuring is used to extract the product object and closeModal function from props.

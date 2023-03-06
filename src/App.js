@@ -78,8 +78,11 @@ const App = () => {
     <div className="app-container">
       <div className="header-container">
         <h1 className="header">The 8-Bit Zone</h1>
-        <SearchBox className="search-container" handleSearch={handleSearch} />
+        <div className="search-container">
+          <SearchBox handleSearch={handleSearch} />
+        </div>
       </div>
+
       <div className="product-list">
         {showSearchResults &&
           filteredProducts.map((product) => (
@@ -98,6 +101,7 @@ const App = () => {
           />
         </div>
       </div>
+      <footer></footer>
     </div>
   );
 };

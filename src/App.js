@@ -78,6 +78,7 @@ const App = () => {
     <div className="app-container">
       <div className="header-container">
         <h1 className="header">The 8-Bit Zone</h1>
+
         <div className="search-container">
           <SearchBox handleSearch={handleSearch} />
         </div>

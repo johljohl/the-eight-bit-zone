@@ -178,13 +178,13 @@ td {
   align-items: flex-start;
 }
 .header-container {
-  background-image: url("../src/img/marioback.png");
+  background-image: url("https://silencenogood.net/wordpress/wp-content/uploads/2011/11/Nintendo-banner.jpg");
 
   padding: 50px;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 100% 97%;
   background-repeat: no-repeat;
-  background-color: lightgrey;
+  background-color: black;
   grid-row: 1;
   grid-column: 1 / -1;
   display: flex;
@@ -232,5 +232,7 @@ td {
 
 h1 {
   font-family: "New Super Mario Font U", sans-serif;
-  font-size: 75px;
+  font-size: 95px;
+  color: yellow;
+  -webkit-text-stroke: 2px black;
 }

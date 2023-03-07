@@ -1,5 +1,3 @@
-import React from "react";
-
 const ShoppingBasket = (props) => {
   // Destructure props to get removeFromBasket and basketItems
   const { removeFromBasket, basketItems } = props;

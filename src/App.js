@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SearchBox from "./components/SearchBox";
 import SearchResult from "./components/SearchResult";
 import ShoppingBasket from "./components/ShoppingBasket";
+import Banner from "./components/Banner";
 import data from "./data/products.json";
 import "./App.css";
 
@@ -84,6 +85,8 @@ const App = () => {
         </div>
       </div>
 
+      {/* Banners */}
+      <div className="product-list">{!showSearchResults && <Banner />}</div>
       <div className="product-list">
         {showSearchResults &&
           filteredProducts.map((product) => (
@@ -102,7 +105,6 @@ const App = () => {
           />
         </div>
       </div>
-      <footer></footer>
     </div>
   );
 };

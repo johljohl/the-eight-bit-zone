@@ -13,11 +13,9 @@ function Banner() {
         <img src={bannerimg2} alt="Banner 1" />
       </div>
       <div className="banner1">
-        {" "}
         <img src={bannerimg4} alt="Banner 1" />
       </div>
       <div className="banner1">
-        {" "}
         <img src={bannerimg3} alt="Banner 1" />
       </div>
     </div>

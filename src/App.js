@@ -4,17 +4,23 @@ import SearchResult from "./components/SearchResult";
 import ShoppingBasket from "./components/ShoppingBasket";
 import Banner from "./components/Banner";
 import data from "./data/products.json";
+//import vertical from "../src/image/banner5.png";
 import "./App.css";
 
 const App = () => {
   // State for the items in the basket
   const [basketItems, setBasketItems] = useState([]);
 
+  const [basket, setBasket] = useState(false);
   // State for showing search results
   const [showSearchResults, setShowSearchResults] = useState(false);
 
   // State for filtered products based on search query
   const [filteredProducts, setFilteredProducts] = useState(data);
+
+  const getBasket = () => {
+    setBasket(true);
+  };
 
   // Add a product to basket
   const addToBasketClick = (product) => {
@@ -94,15 +100,20 @@ const App = () => {
               key={product.id}
               product={product}
               addToBasket={addToBasketClick}
+              showBasket={getBasket}
             />
           ))}
       </div>
       <div className="cart-container">
         <div className="cart">
-          <ShoppingBasket
-            basketItems={basketItems}
-            removeFromBasket={removeFromBasketClick}
-          />
+          {/*{!basket && <img src={vertical} alt="bild" />}*/}
+          {basket && (
+            <ShoppingBasket
+              basketItems={basketItems}
+              removeFromBasket={removeFromBasketClick}
+              showBasket={getBasket}
+            />
+          )}
         </div>
       </div>
     </div>

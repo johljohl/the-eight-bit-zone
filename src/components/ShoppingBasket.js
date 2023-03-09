@@ -19,16 +19,16 @@ const ShoppingBasket = (props) => {
   // Render JSX code for the shopping basket
   return (
     <div>
-      <h2>DIN KUNDVAGN</h2>
+      <h2 style={{ color: "white" }}>DIN KUNDVAGN</h2>
       {/* Show the text "Your basket is empty" if the basket is empty */}
       {basketItems.length === 0 ? (
-        <p>Din kundvagn är tom</p>
+        <p style={{ color: "white" }}>Din kundvagn är tom</p>
       ) : (
         // Show a table with the shopping basket if there are items in the basket
         <>
           <table>
             <thead>
-              <tr>
+              <tr style={{ color: "white" }}>
                 <th>Produkt</th>
                 <th>Pris</th>
                 <th>Antal</th>

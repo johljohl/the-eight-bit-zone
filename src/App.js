@@ -4,7 +4,6 @@ import SearchResult from "./components/SearchResult";
 import ShoppingBasket from "./components/ShoppingBasket";
 import Banner from "./components/Banner";
 import data from "./data/products.json";
-//import vertical from "../src/image/banner5.png";
 import "./App.css";
 
 const App = () => {
@@ -85,13 +84,10 @@ const App = () => {
     <div className="app-container">
       <div className="header-container">
         <h1 className="header">The 8-Bit Zone</h1>
-
         <div className="search-container">
           <SearchBox handleSearch={handleSearch} />
         </div>
       </div>
-
-      {/* Banners */}
       <div className="product-list">{!showSearchResults && <Banner />}</div>
       <div className="product-list">
         {showSearchResults &&
@@ -106,7 +102,6 @@ const App = () => {
       </div>
       <div className="cart-container">
         <div className="cart">
-          {/*{!basket && <img src={vertical} alt="bild" />}*/}
           {basket && (
             <ShoppingBasket
               basketItems={basketItems}

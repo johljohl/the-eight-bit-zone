@@ -7,57 +7,17 @@ import data from "./data/products.json";
 import "./App.css";
 
 const App = () => {
-  // State for the items in the basket
-  const [basketItems, setBasketItems] = useState([]);
-
-  const [basket, setBasket] = useState(false);
-  // State for showing search results
-  const [showSearchResults, setShowSearchResults] = useState(false);
-
   // State for filtered products based on search query
   const [filteredProducts, setFilteredProducts] = useState(data);
 
-  const getBasket = () => {
-    setBasket(true);
-  };
+  // State for showing search results
+  const [showSearchResults, setShowSearchResults] = useState(false);
 
-  // Add a product to basket
-  const addToBasketClick = (product) => {
-    // Check if the product already exists in basket
-    const matchingProduct = basketItems.find((item) => item.id === product.id);
-    if (matchingProduct) {
-      // If the product exists in basket, update its quantity
-      setBasketItems(
-        basketItems.map((item) =>
-          item.id === product.id
-            ? { ...item, quantity: item.quantity + product.quantity }
-            : item
-        )
-      );
-    } else {
-      // If the product doesn't exist in basket, add it to basket
-      setBasketItems([...basketItems, { ...product }]);
-    }
-  };
+  // State for the items in the basket
+  const [basketItems, setBasketItems] = useState([]);
 
-  // Remove a product from basket
-  const removeFromBasketClick = (productId) => {
-    // Check if the product exists in basket
-    const matchingProduct = basketItems.find((item) => item.id === productId);
-    if (matchingProduct.quantity === 1) {
-      // If the product quantity is 1, remove it from basket
-      setBasketItems(basketItems.filter((item) => item.id !== productId));
-    } else {
-      // If the product quantity is greater than 1, decrement its quantity
-      setBasketItems(
-        basketItems.map((item) =>
-          item.id === productId
-            ? { ...item, quantity: item.quantity - 1 }
-            : item
-        )
-      );
-    }
-  };
+  // State for hidden basket
+  const [basket, setBasket] = useState(false);
 
   // Handle search query entered by user
   const handleSearch = (searchQuery) => {
@@ -80,6 +40,48 @@ const App = () => {
     setShowSearchResults(true);
   };
 
+  // Add a product to basket
+  const addToBasketClick = (product) => {
+    // Check if the product already exists in basket
+    const matchingProduct = basketItems.find((item) => item.id === product.id);
+    if (matchingProduct) {
+      // If the product exists in basket, update its quantity
+      setBasketItems(
+        basketItems.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + product.quantity }
+            : item
+        )
+      );
+    } else {
+      // If the product doesn't exist in basket, add it to basket
+      setBasketItems([...basketItems, { ...product }]);
+    }
+  };
+
+  const openBasket = () => {
+    setBasket(true);
+  };
+
+  // Remove a product from basket
+  const removeFromBasketClick = (productId) => {
+    // Check if the product exists in basket
+    const matchingProduct = basketItems.find((item) => item.id === productId);
+    if (matchingProduct.quantity === 1) {
+      // If the product quantity is 1, remove it from basket
+      setBasketItems(basketItems.filter((item) => item.id !== productId));
+    } else {
+      // If the product quantity is greater than 1, decrement its quantity
+      setBasketItems(
+        basketItems.map((item) =>
+          item.id === productId
+            ? { ...item, quantity: item.quantity - 1 }
+            : item
+        )
+      );
+    }
+  };
+
   return (
     <div className="app-container">
       <div className="header-container">
@@ -96,7 +98,7 @@ const App = () => {
               key={product.id}
               product={product}
               addToBasket={addToBasketClick}
-              showBasket={getBasket}
+              openBasket={openBasket}
             />
           ))}
       </div>
@@ -106,7 +108,6 @@ const App = () => {
             <ShoppingBasket
               basketItems={basketItems}
               removeFromBasket={removeFromBasketClick}
-              showBasket={getBasket}
             />
           )}
         </div>

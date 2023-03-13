@@ -10,13 +10,13 @@ function Banner() {
         <img src={bannerimg1} alt="Banner 1" />
       </div>
       <div className="banner1">
-        <img src={bannerimg2} alt="Banner 1" />
+        <img src={bannerimg2} alt="Banner 2" />
       </div>
       <div className="banner1">
-        <img src={bannerimg4} alt="Banner 1" />
+        <img src={bannerimg4} alt="Banner 3" />
       </div>
       <div className="banner1">
-        <img src={bannerimg3} alt="Banner 1" />
+        <img src={bannerimg3} alt="Banner 4" />
       </div>
     </div>
   );

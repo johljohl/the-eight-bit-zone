@@ -5,23 +5,23 @@
     "description": "NES Nintendo 8 Bit",
     "price": 295,
     "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_supermariobrosduckhunt_2_thumb.jpg",
-    "about": "Super Mario Bros / Duck Hunt är en populär kombinationskassett med två spel till NES-konsolen på 1980-talet."
+    "about": "Återupplev två klassiska NES-spel med Super Mario Bros. / Duck Hunt-kombinationen. Rädda prinsessan Peach och klättra genom svåra hinder i Super Mario Bros., eller använd din Nintendo Zapper-pistol för att skjuta på animerade mål i Duck Hunt. Med två klassiska spel i ett paket, är Super Mario Bros. / Duck Hunt-kombinationen ett måste för retrospelentusiaster och samlare. Utforska nu och återupplev barndomens spelminnen med Super Mario Bros. / Duck Hunt-kombinationen!"
   },
   {
     "id": 2,
-    "name": "Zelda II - The Aventure of Link",
+    "name": "The Legend of Zelda",
     "description": "NES Nintendo 8 Bit",
     "price": 599,
-    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_legendofzeldaadevntureoflink_thumb.jpg",
-    "about": "Zelda 2 är en uppföljare till det populära spelet The Legend of Zelda och släpptes till NES-konsolen på 1980-talet."
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_thelegendofzelda_2_thumb.jpg",
+    "about": "The Legend of Zelda är en klassisk NES-titel som fortfarande fascinerar spelare över hela världen. Spelet är känt för sin öppna värld och engagerande gameplay, där spelarna kan utforska Hyrule-riket, lösa pussel och bekämpa fiender på vägen mot slutmålet att rädda prinsessan Zelda och besegra den onde Ganon. Med en oförglömlig soundtrack och kända varumärke, är The Legend of Zelda ett måste-ha för alla retrospelsentusiaster och alla som söker en episk resa genom en av de mest ikoniska spelen genom tiderna. Köp The Legend of Zelda idag och återupplev barndomsminnena eller upptäck det för första gången."
   },
   {
     "id": 3,
     "name": "Kid Icarus",
     "description": "NES Nintendo 8 Bit",
     "price": 395,
-    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_kidicarus_thumb.jpg",
-    "about": "Kid Icarus är ett action-plattformsspel som släpptes till NES-konsolen på 1980-talet. I spelet styr spelaren huvudkaraktären Pit genom en serie av nivåer och strider mot fiender, med målet att rädda den grekiska gudinnan Palutena från den onda Medusa."
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_kidicarus_3_thumb.jpg",
+    "about": "Stig upp till gudarnas nivåer med Kid Icarus - en av de mest älskade NES-spelen genom tiderna. Ta på dig rollen som den modige hjälten Pit och kämpa mot onda krafter för att rädda gudinnan Palutena och stoppa den elake Medusa från att ta över världen. Med en spännande berättelse, utmanande nivåer och minnesvärda bossar, är Kid Icarus en klassisk äventyrsspel som passar både nya och gamla spelare. Utforska nu och upptäck varför Kid Icarus fortfarande är en av de mest omtyckta NES-spelen genom tiderna!"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "NES Nintendo 8 Bit",
     "price": 395,
     "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_hogansalley_thumb.jpg",
-    "about": "Hogan's Alley är ett skjutspel som släpptes till NES-konsolen på 1980-talet. Spelet använde sig av NES Zapper, en ljuspistol, som spelare använde för att skjuta på figurer som dök upp på skärmen."
+    "about": "Känn dig som en FBI-agent och testa dina färdigheter med Hogan's Alley - en av de mest klassiska skjutspelen från NES-eran. Använd din pistolformade spelkontroll för att träna din precision och reaktionstid genom att skjuta på mål och undvika oskyldiga civila. Med utmanande nivåer, enkla kontroller och autentisk grafik, är Hogan's Alley en spännande utmaning för både nya och erfarna spelare. Utforska nu och upplev den nostalgiska spelupplevelsen med Hogan's Alley."
   },
   {
     "id": 5,
@@ -37,15 +37,15 @@
     "description": "NES Nintendo 8 Bit",
     "price": 395,
     "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_mariobros_thumb.jpg",
-    "about": "Mario Bros är ett arkadspel som släpptes 1983 av Nintendo. I spelet styr spelaren Mario eller Luigi och målet är att rensa nivån från fiender genom att hoppa under plattformar och slå på dem för att vända dem upp och ner, och sedan kicka iväg dem."
+    "about": "Utforska den tidiga klassikern i spelhistorien med Mario Bros. från 1983. Kliv in i rollen som Mario eller Luigi och bekämpa onda sköldpaddor och krabbor i stadens avloppssystem. Med enkel spelstil och tvåspelarläge för att spela tillsammans med en vän, var Mario Bros. från 1983 en av de tidiga succéerna för Nintendo och banade väg för den legendariska Super Mario-serien som vi känner till idag. Utforska nu och upptäck varför Mario Bros. från 1983 är en viktig del av spelhistorien."
   },
   {
     "id": 6,
     "name": "Ice Climber",
     "description": "NES Nintendo 8 Bit",
     "price": 295,
-    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_iceclimber_eu_thumb.jpg",
-    "about": "Ice Climber är ett plattformsspel som släpptes till NES-konsolen på 1980-talet. Spelet följde äventyren av två eskimåer, Popo och Nana, som skulle klättra upp på en bergstopp genom att hoppa och klättra på block och isformationer samtidigt som de undvek fiender och hinder."
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_iceclimber_thumb.jpg",
+    "about": "Klättra upp till toppen av berget med Popo och Nana i Ice Climber - en av de mest ikoniska spelserierna från NES-eran. Med en kombination av plattformsspel och pussel, måste du klättra upp genom nivåerna och undvika faror som snöstormar, isbjörnar och sprickor i marken. Med tvåspelarläge kan du spela tillsammans med en vän och övervinna hindren tillsammans. Ice Climber är en nostalgisk resa tillbaka till klassiskt plattformsspelande, som passar både nya och gamla spelare. Utforska nu och upplev den klassiska spelupplevelsen med Ice Climber!"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "description": "NES Nintendo 8 Bit",
     "price": 699,
     "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes.wildgunman_FR.16630936311974781047_thumb.jpg",
-    "about": "Wild Gunman är ett skjutspel som släpptes till NES-konsolen på 1980-talet. I spelet använde spelare NES Zapper, en ljuspistol, för att skjuta på figurer som dök upp på skärmen, såsom banditer och cowboys."
+    "about": "Res tillbaka till vilda västern och upplev spänningen med Wild Gunman - en av de mest klassiska skjutspelen från NES-eran. Använd din pistolformade spelkontroll för att bekämpa skurkarna och skydda staden, medan du undviker hinder och samlar poäng längs vägen. Med sin unika spelstil, autentiska grafik och utmanande svårighetsgrad, är Wild Gunman en favorit bland både nya och gamla spelare. Utforska nu och upptäck varför Wild Gunman är en legendarisk del av spelhistorien!"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "description": "NES Nintendo 8 Bit",
     "price": 295,
     "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_kungfu_thumb.jpg",
-    "about": "Kung Fu är ett plattformsspel som släpptes till NES-konsolen på 1980-talet. I spelet styrde spelaren karaktären Thomas som kämpade mot våldsamma fiender för att rädda sin flickvän Sylvia. Spelet var känt för sin enkla men intensiva gameplay, som krävde snabba reflexer och strategiskt agerande."
+    "about": "Slåss dig igenom en hord av fiender och rädda din flickvän från de onda gängen i Kung Fu - en av de mest klassiska spelserierna från NES-eran. Med snabba reflexer och en arsenal av kampsportstekniker, är du den enda som kan besegra bossarna och rädda dagen. Kung Fu är en spännande och intensiv utmaning som testar dina färdigheter och tålamod. Utforska nu och upplev varför Kung Fu har en plats bland de mest legendariska NES-spelen någonsin!"
   },
   {
     "id": 9,
@@ -69,28 +69,30 @@
     "description": "NES Nintendo 8 Bit",
     "price": 1495,
     "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_donkeykong_thumb.jpg",
-    "about": "Donkey Kong är ett arkadspel som släpptes 1981 av Nintendo. I spelet spelar spelaren som den karaktären Jumpman (senare känd som Mario) och målet är att rädda hans flickvän Pauline från gorillan Donkey Kong genom att klättra upp för byggnader och undvika hinder och fiender på vägen."
+    "about": "Återupplev en av de mest ikoniska karaktärerna i spelhistorien med Donkey Kong. Hjälp den modige apan, Donkey Kong, att rädda sin älskade banan från de onda krokodilerna, medan du undviker hinder och samlar bonusar längs vägen. Med sin ikoniska design, minnesvärda banor och klassiskt spelmekanik, är Donkey Kong en tidlös klassiker som passar både nya och erfarna spelare. Utforska nu och upptäck varför Donkey Kong fortfarande är en av de mest älskade karaktärerna inom spelvärlden idag!"
   },
   {
     "id": 10,
     "name": "Metroid",
     "description": "NES Nintendo 8 Bit",
     "price": 595,
-    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_metroid_thumb.jpg",
-    "about": "Metroid är ett action-plattformsspel som släpptes till NES-konsolen på 1980-talet. I spelet spelar spelaren som rymdbestridaren Samus Aran, vars uppdrag är att infiltrera en fientlig planet och bekämpa dess invånare för att rädda universum från en ond kraft"
+    "image": "https://coverproject.sfo2.cdn.digitaloceanspaces.com/nes/nes_metroid_2_thumb.jpg",
+    "about": "Ta på dig rollen som rymdäventyraren Samus Aran och kämpa mot utomjordingar i Metroid - ett av de mest ikoniska spelserierna från Nintendo. Utforska en farlig och okänd planet full av utmaningar och hemligheter, samtidigt som du använder Samus Arans högteknologiska vapen och utrustning för att bekämpa fientliga utomjordingar. Med en spännande berättelse, innovativa spelmekaniker och minnesvärda karaktärer, är Metroid ett måste för alla som älskar actionfyllda spel. Utforska nu och upptäck varför Metroid är en av de mest hyllade spelserierna genom tiderna!"
   },
   {
     "id": 11,
     "name": "Nintendo 8 Bit Basenhet",
     "description": "Konsol, Tillbehör",
     "price": 1695,
-    "image": "https://nes.kreese.com/grafik/tillbehor/box.jpg"
+    "image": "https://nes.kreese.com/grafik/tillbehor/box.jpg",
+    "about": "Återupplev klassiska 8-bitars spel som Super Mario Bros., The Legend of Zelda och Mega Man på vår autentiska konsol. Enkel anslutning och lättanvända kontroller gör vår konsol perfekt för retrospelentusiaster och samlare. Beställ din konsol idag och upplev klassiska spel på riktigt!"
   },
   {
     "id": 12,
     "name": "Nintendo Zapper",
     "description": "Tillbehör",
     "price": 695,
-    "image": "https://nes.kreese.com/grafik/tillbehor/zappergrey.jpg"
+    "image": "https://nes.kreese.com/grafik/tillbehor/zappergrey.jpg",
+    "about": "Nintendo Zapper erbjuder en autentisk spelupplevelse från 1980-talet. Denna pistolformade spelkontroll skickar ut en ljusstråle som uppfångas av TV-skärmen när du skjuter på animerade mål i spel som Duck Hunt och Wild Gunman. Zapper är perfekt för retrospelentusiaster och samlare som vill återuppleva barndomens spelminnen. Kompatibel med Nintendo Entertainment System (NES). Utforska nu och lägg till Zapper i din samling av klassiska spelkontroller!"
   }
 ]

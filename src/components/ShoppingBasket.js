@@ -9,26 +9,41 @@ const ShoppingBasket = (props) => {
 
   // Function to calculate the total cost of the shopping basket
   const total = () => {
-    let total = 0;
-    basketItems.forEach((item) => {
-      total += item.price * item.quantity;
-    });
-    return total;
+    return basketItems.reduce((total, item) => {
+      return total + item.price * item.quantity;
+    }, 0);
   };
 
   // Render JSX code for the shopping basket
   return (
     <div>
-      <h2 style={{ color: "white" }}>DIN KUNDVAGN</h2>
-      {/* Show the text "Your basket is empty" if the basket is empty */}
+      <h2
+        style={{
+          color: "white",
+          textAlign: "center",
+          WebkitTextStroke: "2px black",
+        }}
+      >
+        DIN KUNDVAGN
+      </h2>
+      {/* Show the text "Din Kungvagn är tom" if the basket is empty */}
       {basketItems.length === 0 ? (
-        <p style={{ color: "white" }}>Din kundvagn är tom</p>
+        <p
+          style={{
+            color: "white",
+            textAlign: "center",
+            backgroundColor: "black",
+            fontWeight: "bold",
+          }}
+        >
+          Din kundvagn är tom
+        </p>
       ) : (
         // Show a table with the shopping basket if there are items in the basket
         <>
           <table>
             <thead>
-              <tr style={{ color: "white" }}>
+              <tr style={{ color: "white", backgroundColor: "black" }}>
                 <th>Produkt</th>
                 <th>Pris</th>
                 <th>Antal</th>
